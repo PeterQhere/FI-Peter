@@ -1,0 +1,36 @@
+1. C
+2. C
+3. B
+4. B
+5. D
+6. C
+7. A
+8. A
+9. C
+10. C
+11. D
+
+Theory
+Git is a version control system that helps keep track of changes to a file. It is useful when collaborating on a project with multiple team members. At any point git can help them track chaages, see the authors of those changes and add their code inputs. 
+
+There are several basic Git commands in creating and pushing project changes to GitHub.
+
+Setting up your git hub
+Head to github.com and Create an account
+
+Set up your username and email in your text editor
+git config --global user.name "Your Name"
+
+git config --global user.email "you@example.com"
+
+Creating your first repository 
+1. Identify the name of the directory in your local repository (i.e) your personal computer or mac. 
+2. Create a folder in Git Hub with the same name as the created directory in your local repository.
+3. Launch your text editor and ensure you cd to your working directory
+4. Initialise git in your directory using the git init command
+5. Check to see if git has been initialised. If it has you'll see a .git icon in your directory. You can see this by ls the items in your directory or checking via the GUI
+5. Use the Git add 'filename' command to stage the file you want to track in your working directory.  
+6. After makiing xhanges to your staged file. you can commit those changes with the command git commit -m 'commit message' the commit message means a tag with which you label the changes made 
+7. Create a new brach using the Git branch -main
+8. Link your virtual repository git remote add origin "insert a copied link of the repository created in Git Hub"
+9. Git push -u origin main to push changes to Git Hub
